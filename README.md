@@ -1,4 +1,6 @@
-### Hi there 👋
+## Hi there, I'm Carlos Tosta
+
+---
 
 I'm a software developer from Rio de Janeiro, with more than 10 years of experience, currently working as a Business Analyst at Dataprev, a Brazilian public IT company responsible for processing Latin America's biggest public pension payroll.
 
