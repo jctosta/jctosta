@@ -1,32 +1,24 @@
-## Hi there, I'm Carlos Tosta
+# Hi, I'm Carlos
 
----
+Backend and ML infrastructure engineer from Rio de Janeiro, building production systems for 15+ years. These days that means GPU job scheduling, inference pipelines and LLM platforms, the plumbing that takes a model from a dev machine to something that runs all day without anyone babysitting it.
 
-I'm a software developer from Rio de Janeiro, with more than 10 years of experience, currently working as a Business Analyst at Dataprev, a Brazilian public IT company responsible for processing Latin America's biggest public pension payroll.
+Some of the recent work, most of it in private repos:
 
-After a long (longer than expected) period trapped in the managing roles, I'm currently returning to the technical duties, tackling on some side projects, like my favorite, Model Canvas, which I expect to release some time this year.
+- **Sortium** — Principal Engineer on a generative AI platform for game assets, diffusion-based PBR textures up to full 3D assets, running on a 16× RTX 4090 cluster behind a queue and scheduler I designed. Cut multi-material asset generation from about a minute to under 10 seconds.
+- **Phood** — MLOps contract, took a custom computer-vision model from a single dev machine to reproducible container deployments on AWS GPU instances, with a CI/CD pipeline that ships it in minutes.
+- **HealthForge** — founding engineer on a HIPAA-compliant telehealth platform, including an LLM gateway that masks patient data before any prompt reaches a model provider.
 
-Technology was always easy to process for me, and this trait enabled me to understand fairly well a lot of frameworks and languages in the day, and now, in my return to the programming side of things, this has proven to be a immense advantage, allowing me to navigate the extreme complex and unstable javascript ecosystem with ease while mantaining my sanity along the way.
+Before all that, 13 years at Dataprev, Brazil's federal IT company, from Java developer to managing a division of nearly 60 architects, and leading the R&D of bCPF, the permissioned blockchain that Receita Federal uses to share the CPF registry with 800+ government partners.
 
-In the past I was interested in blockchain technologies, like Ethereum, Hyper Ledger and Corda, and did quite well, with some important projects developed within the company, like the fabled bCPF, one of the largest blockchain projects, aimed at the public database of Brazilian Citizens, mantained by the Brazil equivalent of IRS (Internal Revenue Service), the Receita Federal do Brasil.
+## Public projects
 
-Feel free to add me on [linkedin](https://www.linkedin.com/in/carlostosta/) and drop a message if you want to discuss something or just talk.
+- [**micro-queue-starter**](https://github.com/jctosta/micro-queue-starter) — small GPU job scheduler in Python (FastAPI, Celery, Redis): one job per GPU, prefetch 1 with late acks, separate short and long queues, and a load test that shows why. The README explains each decision.
+- [**skizo**](https://github.com/jctosta/skizo) — a small language for coding agents to sketch UIs, with a checker that reports every error in one pass, an offline preview and shadcn/React export. [Docs](https://jctosta.github.io/skizo/).
+- [**toolbox**](https://github.com/jctosta/toolbox) — my Claude Code and pi plugins: a spec-first workflow, lint and prose quality gates, and a llama.cpp slot keeper for subagent calls.
+- [**agent-inbox**](https://github.com/jctosta/agent-inbox) — a persistent inbox of what your coding agents are waiting on you for, shared between Claude Code and pi.
 
-Last but not least, I'm avaliable to play Monster Hunter 👀 on Xbox (@jctosta) and Steam (@astot), drop a chat and let's get some fun.
+Stack I reach for: Python, Go, TypeScript and Rust, with Celery, Redis, PostgreSQL and SQLite on the backend, Azure and AWS for the cloud bits, and LiteLLM, Presidio, OpenCV and YOLO on the AI side.
 
-<!--
-**jctosta/jctosta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Open to backend, ML infrastructure and applied AI roles, remote. Best way to reach me is [LinkedIn](https://www.linkedin.com/in/carlostosta/) or jctosta86@gmail.com.
 
-
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Off the clock, I'm usually up for a Monster Hunter hunt on Steam (@astot).
